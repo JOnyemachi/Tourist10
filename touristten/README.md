@@ -27,7 +27,9 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented required features:
 
 
-<img src='https://imgur.com/UkxqSzC' title='Project 1 Walkthrough' width='300px' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/UkxqSzC.gif' 
+title='Project 1 Walkthrough' 
+alt='' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap  
