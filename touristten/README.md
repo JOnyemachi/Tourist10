@@ -27,7 +27,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented required features:
 
 
-<img src='/Users/jeffo/Desktop/tourist10demo#1.gif'
+<img src='https://imgur.com/qALQvrn' 
 title='Project 1 Walkthrough' 
 alt='Project 1 Walkthrough' />
 
