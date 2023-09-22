@@ -26,6 +26,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 [Imgur](https://imgur.com/qALQvrn)
+![tourist10demo#1](https://github.com/JOnyemachi/Tourist10/assets/60332952/1d84474a-f597-41a0-999b-4369e2db30fd)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap  
