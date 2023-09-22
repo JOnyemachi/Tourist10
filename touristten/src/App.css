@@ -19,7 +19,16 @@
 
 .appIcon {
     height: 200px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
+    margin-inline: 650px;
+    
+}
+
+img {
+    height: 100px;
+    width: 100px;
 }

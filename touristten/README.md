@@ -4,7 +4,7 @@ Submitted by: **Jeff Onyemachi**
 
 This web app: *Website that displays info + links of the top 10 toured global cities in responsive cards. Data based of this site: https://www.atlys.com/post/the-most-visited-cities-in-the-world*
 
-Time spent: **7** hours spent in total
+Time spent: **9.5** hours spent in total
 
 ## Required Features
 
@@ -15,8 +15,8 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] Buttons or links to a related resources are on each card component
-- [ ] The site is responsive for both desktop and mobile formats
+- [x] Buttons or links to a related resources are on each card component
+- [x] The site is responsive for both desktop and mobile formats
 
 The following **additional** features are implemented:
 

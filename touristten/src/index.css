@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 body {
@@ -25,7 +25,7 @@ section {
 }
 
 h1 {
-    font: 150px;
+    font-size: 80px;
     color: #ffffff;
     line-height: 60px;
     text-align: center;
@@ -35,7 +35,7 @@ h1 {
 
 h2 {
     font: 50px;
-    color: #013b1e;
+    color: #013b0e;
     line-height: 60px;
     text-align: center;
     margin-bottom: 40px;
@@ -60,13 +60,13 @@ h2 {
 }
 
 .card:hover {
-    border-color: rgb(255, 109, 80);
+    border-color: rgb(171, 151, 17);
 }
 
 .btn {
     border: none;
     outline: none;
-    background: #551a1a;
+    background: rgb(85, 26, 26);
     color:#fff;
     border-radius: 10px;
     max-width: 120px;
@@ -78,11 +78,11 @@ h2 {
     margin-top: 20px;
     cursor: pointer;
     transition: .3s;
-    border: 1px solid rgb(171, 151, 17);
+    border: 1px solid rgb(177, 11, 11);
 }
 
 .btn:hover {
-    background: transparent;
+    background: rgba(149, 8, 8, 0.8);
 }
 
 @media(max-width: 600px) {

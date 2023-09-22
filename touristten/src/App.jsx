@@ -1,48 +1,58 @@
 import './App.css';
 import { useState } from 'react';
 
-const App = () => {
+const App = (props) => {
 
   const[cards]  = useState ([
     {
-      title: 'Card-1',
-      text: 'Sample text to demo if body text is working'
+      title: 'Hong Kong',
+      text: 'Visitors annually: 26.6',
+      img: "/hong kong.jpeg"
     },
     {
-      title: 'Card-2',
-      text: 'Sample text to demo if body text is working'
+      title: 'Bangkok',
+      text: 'Visitors annually: 21.2',
+      img: "/bangkok.webp"
     },
     {
-      title: 'Card-3',
-      text: 'Sample text to demo if body text is working'
+      title: 'London',
+      text: 'Visitors annually: 19.2',
+      img: "/london.jpeg"
     },
     {
-      title: 'Card-4',
-      text: 'Sample text to demo if body text is working'
+      title: 'Singapore',
+      text: 'Visitors annually: 16.6',
+      img: "/singapore.webp"
     },
     {
-      title: 'Card-5',
-      text: 'Sample text to demo if body text is working'
+      title: 'Macau',
+      text: 'Visitors annually: 15.4',
+      img: "/macau.jpeg"
     },
     {
-      title: 'Card-6',
-      text: 'Sample text to demo if body text is working'
+      title: 'Dubai',
+      text: 'Visitors annually: 14.9',
+      img: "/dubai.jpeg"
     },
     {
-      title: 'Card-7',
-      text: 'Sample text to demo if body text is working'
+      title: 'Paris',
+      text: 'Visitors annually: 14.4',
+      img: "/paris.jpeg"
     },
     {
-      title: 'Card-8',
-      text: 'Sample text to demo if body text is working'
+      title: 'New York',
+      text: 'Visitors annually: 12.7',
+      img: "/newyork.avif"
     },
     {
-      title: 'Card-9',
-      text: 'Sample text to demo if body text is working'
+      title: 'Shenzhen',
+      text: 'Visitors annually: 12.6',
+      img: "/shenzhen.avif"
     },
     {
-      title: 'Card-10',
-      text: 'Sample text to demo if body text is working'
+      title: 'Kuala Lumpur',
+      text: 'Visitors annually: 12.3',
+      img: "/kuala.jpeg"
     },
   ])
   return (
@@ -56,7 +66,7 @@ const App = () => {
         {
           cards.map((card,i) => (
             <div key = {i} className="card">
-
+            <img src ={card.img}/> 
             <h3>{card.title}</h3>
             <p>{card.text}</p>
             <button className = "btn">Button</button>
